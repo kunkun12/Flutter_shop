@@ -1,0 +1,33 @@
+{
+  "@@last_modified": "2018-12-30T20:28:52.450487",
+  "Home": "首页",
+  "@Home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Cate": "分类",
+  "@Cate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Find": "发现",
+  "@Find": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Cart": "购物车",
+  "@Cart": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Person": "我的",
+  "@Person": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Search": "搜索",
+  "@Search": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

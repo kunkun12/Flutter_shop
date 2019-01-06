@@ -1,0 +1,33 @@
+{
+  "@@last_modified": "2018-12-30T20:42:49.089072",
+  "Home": "Home",
+  "@Home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Cate": "Cate",
+  "@Cate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Find": "Find",
+  "@Find": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Cart": "Cart",
+  "@Cart": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Person": "Person",
+  "@Person": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Search": "Search",
+  "@Search": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
