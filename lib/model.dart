@@ -7,3 +7,4 @@ export 'model/sub_category.dart';
 export 'model/find.dart';
 export 'model/cart.dart';
 export 'model/search.dart';
+export 'model/beautyimage.dart';

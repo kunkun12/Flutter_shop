@@ -5,8 +5,8 @@ Flutter受React启发，虽然工作原理不同，但是玩法跟React类似，
 
 由于截图录制原因，实际运行效果要更流畅，动画以及滑动，路由转场等效果体验上与native无明显差距。 **项目中用到的模拟数据仅用于技术研究**
  
- Android APK 可以扫码下载
- 
+Android apk 可以扫码下载
+
 ![](/screenshot/qrcode.png)
 
 - 1、首页+搜索 组件进入视口执行动画、首页横滑多Tab 加载图片列表，以及搜索功能、自带的bottombar高度不合适，自定义BottomBar
@@ -35,3 +35,4 @@ Flutter受React启发，虽然工作原理不同，但是玩法跟React类似，
 
 
 [Flutter 学习总结](http://kunkun12.com/2018/12/03/flutter-study/)
+
