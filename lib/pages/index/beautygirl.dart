@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_shop/services/meinv.dart';
+import 'imagedetail.dart';
 
 class BeautyGirlWidget extends StatefulWidget {
   final String keyword;
-  BeautyGirlWidget({Key key, this.keyword}):super(key:key);
+  BeautyGirlWidget({Key key, this.keyword}) : super(key: key);
   @override
   State<StatefulWidget> createState() => BeautyGirlWidgetState();
 }
@@ -23,7 +24,21 @@ class BeautyGirlWidgetState extends State<BeautyGirlWidget> {
             itemCount: images.length,
             itemBuilder: (BuildContext context, int index) => new Container(
                 constraints: BoxConstraints(minHeight: 100),
-                child: Image.network(images[index])),
+                child: Hero(
+                  tag: 'currentimage$index',
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.of(context)
+                          .push(MaterialPageRoute<Null>(builder: (context) {
+                        return ImageDetailWidget(
+                          currentIndex: index,
+                          list: images,
+                        );
+                      }));
+                    },
+                    child: Image.network(images[index]),
+                  ),
+                )),
             staggeredTileBuilder: (int index) => StaggeredTile.fit(1),
             mainAxisSpacing: 4.0,
             crossAxisSpacing: 4.0,
