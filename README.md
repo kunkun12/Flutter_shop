@@ -15,6 +15,11 @@ Android apk 可以扫码下载
 ![](/screenshot/1.gif)
 
 
+Hero 、PageView实现图片预览
+
+![](/screenshot/5.gif)
+
+
 - 2、商品分类页  弹性下滑分页
 
 
