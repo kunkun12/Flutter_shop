@@ -5,7 +5,7 @@ Flutter受React启发，虽然工作原理不同，但是玩法跟React类似，
 
 由于截图录制原因，实际运行效果要更流畅，动画以及滑动，路由转场等效果体验上与native无明显差距。 **项目中用到的模拟数据仅用于技术研究**
  
-Android apk 可以扫码下载
+Android apk 可以扫码下载 (iOS版本请自行编译）
 
 ![](/screenshot/qrcode.png)
 
