@@ -1,4 +1,4 @@
-Flutter 商城案例Demo ： 首页多楼层展示，楼层进入动画，搜索 提示列表、搜索结果列表。分类页面弹性滑动、发现大列表，ScopeModel 状态管理购物车、国际化支持、屏幕适配等。
+Flutter 商城案例Demo ： 首页多楼层展示，楼层进入视口动画，搜索 提示列表、搜索结果列表。分类页面弹性滑动、发现大列表，ScopeModel 状态管理购物车、国际化支持、屏幕适配等。
 
 [写了一篇学习总结 并整理大量学习资料](http://kunkun12.com/2018/12/03/flutter-study/)
 
@@ -11,7 +11,7 @@ Android apk 可以扫码下载 (iOS版本请自行编译）
 
 ![](/screenshot/qrcode.png)
 
-- 1、首页+搜索 组件进入视口执行动画、首页横滑多Tab 加载图片列表，以及搜索功能、自带的bottombar高度不合适，自定义BottomBar
+- 1、首页+搜索 判断组件出现在屏幕中、添加动画、首页横滑多Tab 加载图片列表，以及搜索功能、自带的bottombar高度不合适，自定义BottomBar
 
 
 ![](/screenshot/1.gif)
