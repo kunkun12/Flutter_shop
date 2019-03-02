@@ -1,10 +1,12 @@
-Flutter 练手项目
+Flutter 商城案例Demo ： 首页多楼层展示，楼层进入动画，搜索 提示列表、搜索结果列表。分类页面弹性滑动、发现大列表，ScopeModel 状态管理购物车、国际化支持、屏幕适配等。
 
-Flutter受React启发，虽然工作原理不同，但是玩法跟React类似，Flutter通过自绘制UI的方式，高性能的实现了跨平台APP的开发，值得入手。简单开发即使未来的趋势。 通过最近的学习，[写了一篇学习总结 并整理大量学习资料](http://kunkun12.com/2018/12/03/flutter-study/)
+[写了一篇学习总结 并整理大量学习资料](http://kunkun12.com/2018/12/03/flutter-study/)
 
 
 由于截图录制原因，实际运行效果要更流畅，动画以及滑动，路由转场等效果体验上与native无明显差距。 **项目中用到的模拟数据仅用于技术研究**
- 
+
+打包后 android APK大小为 6M，ios的包大小为12M
+
 Android apk 可以扫码下载 (iOS版本请自行编译）
 
 ![](/screenshot/qrcode.png)
