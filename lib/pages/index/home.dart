@@ -19,11 +19,11 @@ class IndexPage extends StatelessWidget {
                 FisrtTabWidget(),
                 //=['首页','性感美女','制服','清新美女','校园','古装','动漫','壁纸','苍老师'];
                 BeautyGirlWidget(
-                    key: PageStorageKey<String>('sexy'), keyword: '性感美女'),
+                    /*key: PageStorageKey<String>('sexy'), */keyword: '性感美女'),
                 BeautyGirlWidget(
-                    key: PageStorageKey<String>('zhifu'), keyword: '制服美女'),
+                    /* key: PageStorageKey<String>('zhifu') ,*/ keyword: '制服美女'),
                 BeautyGirlWidget(
-                    key: PageStorageKey<String>('fresh'), keyword: '清新美女'),
+                    /* key: PageStorageKey<String>('fresh') ,*/ keyword: '清新美女'),
                 BeautyGirlWidget(keyword: '校园美女'),
                 BeautyGirlWidget(keyword: '古装美女'),
                 BeautyGirlWidget(keyword: '动漫美女'),
