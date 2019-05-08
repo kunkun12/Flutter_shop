@@ -1,6 +1,6 @@
 // from github https://github.com/OpenFlutter/flutter_ScreenUtil/blob/master/lib/flutter_screenutil.dart
 
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 class ScreenUtil {
   static ScreenUtil instance = new ScreenUtil();

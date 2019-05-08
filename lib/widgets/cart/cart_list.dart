@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_shop/widgets/index.dart';
-import 'package:flutter_shop/model.dart';
-import 'package:scoped_model/scoped_model.dart';
-import 'package:flutter_shop/constants/color.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_cart/widgets/index.dart';
+import 'package:flutter_cart/model.dart';
+import 'package:flutter_cart/scope_modal.dart';
+import 'package:flutter_cart/constants/color.dart';
 
 class CartListWidget extends StatelessWidget {
   CartListModel model;

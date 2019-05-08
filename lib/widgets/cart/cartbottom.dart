@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_shop/model.dart';
-import 'package:scoped_model/scoped_model.dart';
-import 'package:flutter_shop/utils/screen_util.dart';
-import 'package:flutter_shop/constants/index.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_cart/model.dart';
+import 'package:flutter_cart/scope_modal.dart';
+import 'package:flutter_cart/utils/screen_util.dart';
+import 'package:flutter_cart/constants/index.dart';
 
 class _TotalWidget extends StatefulWidget {
   final double totalPrice;

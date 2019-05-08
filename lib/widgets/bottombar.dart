@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_shop/utils/screen_util.dart';
-import 'package:flutter_shop/constants/index.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_cart/utils/screen_util.dart';
+import 'package:flutter_cart/constants/index.dart';
 class BottomAppBarItemModal {
   final IconData iconData;
   final String text;

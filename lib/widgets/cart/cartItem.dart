@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_shop/constants/index.dart';
-import 'package:flutter_shop/model.dart';
-import 'package:flutter_shop/utils/screen_util.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_cart/constants/index.dart';
+import 'package:flutter_cart/model.dart';
+import 'package:flutter_cart/utils/screen_util.dart';
 
 class CartItemWidget extends StatelessWidget {
   final CartItemModel data;
@@ -61,8 +61,7 @@ class CartItemWidget extends StatelessWidget {
                           child: Container(
                             width: ScreenUtil().L(32),
                             height: ScreenUtil().L(22),
-                            decoration:
-                                BoxDecoration(border: _getRemoveBtBorder()),
+                          
                             child: Icon(Icons.remove,
                                 color: _getRemovebuttonColor()),
                           ),
@@ -88,8 +87,7 @@ class CartItemWidget extends StatelessWidget {
                             alignment: Alignment.center,
                             width: ScreenUtil().L(32),
                             height: ScreenUtil().L(22),
-                            decoration:
-                                BoxDecoration(border: _getAddBtBorder()),
+                           
                             child: Icon(Icons.add, color: _getAddbuttonColor()),
                           ),
                         ),

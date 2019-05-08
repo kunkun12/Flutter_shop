@@ -1,11 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_shop/i10n/localization_intl.dart';
-import 'package:flutter_shop/widgets/index.dart';
-import 'package:flutter_shop/utils/screen_util.dart';
-import 'package:flutter_shop/constants/index.dart';
-import 'find.dart';
-import 'home.dart';
-import 'category.dart';
+import 'package:flutter_web/material.dart';
+
+import 'package:flutter_cart/widgets/index.dart';
+import 'package:flutter_cart/utils/screen_util.dart';
+import 'package:flutter_cart/constants/index.dart';
 import 'cart.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,7 +12,6 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-
   PageController pageController;
   int currentPage = 0;
 
@@ -23,17 +19,15 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     ScreenUtil.instance = ScreenUtil(width: Klength.designWidth)..init(context);
 
-    double extralHeight = Klength.topBarHeight + //顶部标题栏高度
-        Klength.bottomBarHeight + //底部tab栏高度
-        ScreenUtil.statusBarHeight + //状态栏高度
-        ScreenUtil.bottomBarHeight; //IPhoneX底部状态栏
+    // double extralHeight = Klength.topBarHeight + //顶部标题栏高度
+    //     Klength.bottomBarHeight + //底部tab栏高度
+    //     ScreenUtil.statusBarHeight + //状态栏高度
+    //     ScreenUtil.bottomBarHeight; //IPhoneX底部状态栏
 
     List<Widget> widgets = [
-      IndexPage(),
-      Category(
-        rightListViewHeight: ScreenUtil.screenHeight - extralHeight,
-      ),
-      PinWei(),
+      Cart(),
+      Cart(),
+      Cart(),
       Cart(),
       Center(
         child: Text('这里是空白'),
@@ -45,11 +39,11 @@ class HomePageState extends State<HomePage> {
         onTabSeleted: onTap,
         color: KColorConstant.tabtxtColor,
         items: [
-          BottomAppBarItemModal(Icons.home, KKLocalizations.of(context).home),
-          BottomAppBarItemModal(Icons.category, KKLocalizations.of(context).cate),
-          BottomAppBarItemModal(Icons.cake,KKLocalizations.of(context).find),
-          BottomAppBarItemModal(Icons.shopping_cart, KKLocalizations.of(context).cart),
-          BottomAppBarItemModal(Icons.person, KKLocalizations.of(context).person)
+          BottomAppBarItemModal(Icons.home, '首页'),
+          BottomAppBarItemModal(Icons.category, '分类'),
+          BottomAppBarItemModal(Icons.cake, '发现'),
+          BottomAppBarItemModal(Icons.shopping_cart, '购物车'),
+          BottomAppBarItemModal(Icons.person, '个人')
         ],
       ),
       body: IndexedStack(

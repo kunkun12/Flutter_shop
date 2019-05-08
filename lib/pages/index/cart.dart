@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_shop/widgets/index.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_cart/widgets/index.dart';
 import '../../data/cart.dart';
-import 'package:flutter_shop/model.dart';
-import 'package:flutter_shop/constants/index.dart';
-import 'package:scoped_model/scoped_model.dart';
+import 'package:flutter_cart/model.dart';
+import 'package:flutter_cart/constants/index.dart';
+import 'package:flutter_cart/scope_modal.dart';
 
 class Cart extends StatefulWidget {
   @override
