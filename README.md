@@ -1,4 +1,4 @@
-(web版代码在 web分支)
+(web版代码在 web分支 可以用手机访问 http://kunkun12.com/Flutter_shop 来体验)
 
 Flutter 商城案例Demo ： 首页多楼层展示，楼层进入视口动画，搜索 提示列表、搜索结果列表。分类页面弹性滑动、发现大列表，ScopeModel 状态管理购物车、国际化支持、屏幕适配等。
 
