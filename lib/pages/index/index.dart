@@ -4,7 +4,7 @@ import 'package:flutter_cart/widgets/index.dart';
 import 'package:flutter_cart/utils/screen_util.dart';
 import 'package:flutter_cart/constants/index.dart';
 import 'cart.dart';
-
+import 'category.dart';
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
   @override
@@ -19,15 +19,19 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     ScreenUtil.instance = ScreenUtil(width: Klength.designWidth)..init(context);
 
-    // double extralHeight = Klength.topBarHeight + //顶部标题栏高度
-    //     Klength.bottomBarHeight + //底部tab栏高度
-    //     ScreenUtil.statusBarHeight + //状态栏高度
-    //     ScreenUtil.bottomBarHeight; //IPhoneX底部状态栏
+    double extralHeight = Klength.topBarHeight + //顶部标题栏高度
+        Klength.bottomBarHeight + //底部tab栏高度
+        ScreenUtil.statusBarHeight + //状态栏高度
+        ScreenUtil.bottomBarHeight; //IPhoneX底部状态栏
 
     List<Widget> widgets = [
       Cart(),
-      Cart(),
-      Cart(),
+      Category(
+        rightListViewHeight: ScreenUtil.screenHeight - extralHeight,
+      ),
+       Center(
+        child: Text('这里是空白'),
+      ),
       Cart(),
       Center(
         child: Text('这里是空白'),
