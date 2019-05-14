@@ -3,6 +3,8 @@ import 'package:flutter_web/material.dart';
 import 'package:flutter_cart/widgets/index.dart';
 import 'package:flutter_cart/utils/screen_util.dart';
 import 'package:flutter_cart/constants/index.dart';
+import 'find.dart';
+import 'home.dart';
 import 'cart.dart';
 import 'category.dart';
 class HomePage extends StatefulWidget {
@@ -25,14 +27,12 @@ class HomePageState extends State<HomePage> {
         ScreenUtil.bottomBarHeight; //IPhoneX底部状态栏
 
     List<Widget> widgets = [
-      Cart(),
+      IndexPage(),
       Category(
         rightListViewHeight: ScreenUtil.screenHeight - extralHeight,
       ),
-       Center(
-        child: Text('这里是空白'),
-      ),
-      Cart(),
+        PinWei(),
+       Cart(),
       Center(
         child: Text('这里是空白'),
       )
