@@ -7,7 +7,6 @@ class DivideLineWidget extends StatelessWidget{
   DivideLineWidget({Key key,this.width}):super(key:key);
   @override
     Widget build(BuildContext context) {
-      // TODO: implement build
       return Container(
           height: ScreenUtil().L(width),
           alignment: Alignment.center,

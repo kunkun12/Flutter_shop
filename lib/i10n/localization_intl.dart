@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'messages_all.dart'; //1
-
+import 'dart:async';
 class KKLocalizations {
   static Future<KKLocalizations> load(Locale locale) {
     final String name =

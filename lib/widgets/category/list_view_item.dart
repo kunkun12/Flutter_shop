@@ -104,7 +104,6 @@ class SubCategoryListState extends State<SubCategoryList> {
 
   // @override
   // void initState() {
-  //   // TODO: implement initState
   //   super.initState();
   //   controller.addListener(() {
   //     print("extentBefore:" +
@@ -118,7 +117,6 @@ class SubCategoryListState extends State<SubCategoryList> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     controller.dispose();
     super.dispose();
   }

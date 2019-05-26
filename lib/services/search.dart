@@ -1,7 +1,7 @@
 
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
+import 'dart:async';
 Future getHotSugs() async {
   var url = 'https://suggest.taobao.com/sug?area=sug_hot&wireless=2';
   var res = await http.get(url);

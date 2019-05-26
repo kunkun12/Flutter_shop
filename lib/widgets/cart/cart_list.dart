@@ -41,7 +41,7 @@ class CartListWidget extends StatelessWidget {
           },
         ),
       );
-    });
+    }) ;
   }
 
   _switchChanged(int i) {
