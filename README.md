@@ -1,4 +1,11 @@
-Flutter 商城案例Demo ： 首页多楼层展示，楼层进入视口动画，搜索 提示列表、搜索结果列表。分类页面弹性滑动、发现大列表，ScopeModel 状态管理购物车、国际化支持、屏幕适配等。
+
+Flutter 商城案例Demo 支持Android iOS 以及Web(web版代码在 web分支 可以用手机访问 http://kunkun12.com/Flutter_shop 来体验)  ：主要功能包括
+- 首页多楼层展示 楼层进入视口动画、
+- 搜索 提示列表、搜索结果列表。
+- 分类页面弹性滑动
+- 发现 大列表，
+- ScopeModel 状态管理购物车、
+- 国际化支持、屏幕适配等。
 
 [写了一篇学习总结 并整理大量学习资料](http://kunkun12.com/2018/12/03/flutter-study/)
 
